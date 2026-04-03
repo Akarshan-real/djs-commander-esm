@@ -1,0 +1,29 @@
+{
+  "name": "djs-commander-esm",
+  "version": "1.0.0",
+  "description": "An ESM-powered command and event handler for Discord.js (Forked from djs-commander)",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --clean",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Akarshan Chakraborty (Original by notunderctrl)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akarshan-real/djs-commander-esm"
+  },
+  "devDependencies": {
+    "discord.js": "^14.7.1",
+    "tsup": "^6.6.0",
+    "typescript": "^4.9.5",
+    "winston": "^3.8.2"
+  }
+}
