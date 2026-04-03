@@ -1,10 +1,12 @@
-# @akarshan/djs-commander-esm
+# djs-commander-esm 🚀
 
-This is a modern, fully ESM-compatible fork of the original `djs-commander` library!
+Welcome to the future! This is a modern, fully ESM-compatible (ECMAScript Modules) fork of the original `djs-commander` library. 
 
-**Massive thanks to the original creator, [notunderctrl](https://github.com/notunderctrl/djs-commander), for the amazing foundation!** 🚀
+**Massive thanks and all original credit goes to [notunderctrl](https://github.com/notunderctrl/djs-commander) for the amazing foundation!** 🙌 This fork simply revives it for the modern `import/export` era.
 
-## Installation
+---
+
+## 📦 Installation
 
 ```bash
-npm install @akarshan/djs-commander-esm
+npm install djs-commander-esm
