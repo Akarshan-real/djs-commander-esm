@@ -1,6 +1,7 @@
 {
   "name": "djs-commander-esm",
   "version": "1.0.0",
+  "license" : "MIT",
   "description": "An ESM-powered command and event handler for Discord.js (Forked from djs-commander)",
   "type": "module",
   "main": "./dist/index.js",
