@@ -22,6 +22,16 @@
     "type": "git",
     "url": "https://github.com/Akarshan-real/djs-commander-esm"
   },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "bot",
+    "command",
+    "handler",
+    "events",
+    "esm",
+    "validations"
+  ],
   "dependencies": {
     "winston": "^3.8.2"
   },
