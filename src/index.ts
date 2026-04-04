@@ -50,7 +50,7 @@ export class CommandHandler {
     }
 
     if (this._commandsPath) {
-      this._client.once('ready', async () => {
+      this._client.once('clientReady', async () => {
         await this._commandsInit();
         await this._registerSlashCommands();
         if (this._validationsPath) {
